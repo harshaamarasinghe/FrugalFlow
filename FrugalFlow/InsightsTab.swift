@@ -203,12 +203,12 @@ struct InsightsTab: View {
                                             .fontWeight(.semibold)
                                         if(prediction.prediction == "negative")
                                         {
-                                            Text(saveN)
+                                            Text(saveP)
                                                 .minimumScaleFactor(0.5)
                                             
                                         }
                                         else{
-                                            Text(saveP)
+                                            Text(saveN)
                                                 .minimumScaleFactor(0.5)
                                         }
                                         
